@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYzMTc3Zjk1ZWU3ZWYwOTYzYmJlNzM4ZCIsImlhdCI6MTY2MjU1NDI5MSwiZXhwIjoxNjYyNTU3ODkxfQ.Xb3idhlDe8R9u-iERB13DrDp22eNjFC8UKsdQZXAnnk
+content-type: application/json
+
+{
+    "title": "Some blogs to share",
+    "author": "Me",
+    "url": "http://dns"
+}
